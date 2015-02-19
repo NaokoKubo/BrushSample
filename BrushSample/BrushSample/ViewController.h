@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintingView.h"
+#import "UIImageView+Eraser.h"
 
 @interface ViewController : UIViewController
 
+@property(nonatomic)IBOutlet PaintingView* paintingView;
+@property(nonatomic)IBOutlet UIImageView* photoView;
+@property(nonatomic)IBOutlet UISegmentedControl* segCtl;
 
 @end
 

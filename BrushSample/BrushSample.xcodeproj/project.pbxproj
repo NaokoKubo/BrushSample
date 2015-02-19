@@ -14,6 +14,13 @@
 		8658BC271A9613CB007242F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC261A9613CB007242F1 /* Images.xcassets */; };
 		8658BC2A1A9613CB007242F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC281A9613CB007242F1 /* LaunchScreen.xib */; };
 		8658BC361A9613CB007242F1 /* BrushSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8658BC351A9613CB007242F1 /* BrushSampleTests.m */; };
+		8658BC491A961494007242F1 /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8658BC401A961494007242F1 /* PaintingView.m */; };
+		8658BC4A1A961494007242F1 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC421A961494007242F1 /* bk.png */; };
+		8658BC4B1A961494007242F1 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC431A961494007242F1 /* Particle.png */; };
+		8658BC4C1A961494007242F1 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC441A961494007242F1 /* photo.png */; };
+		8658BC4D1A961494007242F1 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC451A961494007242F1 /* photo@2x.png */; };
+		8658BC4E1A961494007242F1 /* photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8658BC461A961494007242F1 /* photo@3x.png */; };
+		8658BC4F1A961494007242F1 /* UIImageView+Eraser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8658BC481A961494007242F1 /* UIImageView+Eraser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,15 @@
 		8658BC2F1A9613CB007242F1 /* BrushSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrushSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8658BC341A9613CB007242F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8658BC351A9613CB007242F1 /* BrushSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrushSampleTests.m; sourceTree = "<group>"; };
+		8658BC3F1A961494007242F1 /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		8658BC401A961494007242F1 /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		8658BC421A961494007242F1 /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk.png; sourceTree = "<group>"; };
+		8658BC431A961494007242F1 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		8658BC441A961494007242F1 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		8658BC451A961494007242F1 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
+		8658BC461A961494007242F1 /* photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@3x.png"; sourceTree = "<group>"; };
+		8658BC471A961494007242F1 /* UIImageView+Eraser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Eraser.h"; sourceTree = "<group>"; };
+		8658BC481A961494007242F1 /* UIImageView+Eraser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Eraser.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,11 @@
 		8658BC181A9613CB007242F1 /* BrushSample */ = {
 			isa = PBXGroup;
 			children = (
+				8658BC3F1A961494007242F1 /* PaintingView.h */,
+				8658BC401A961494007242F1 /* PaintingView.m */,
+				8658BC411A961494007242F1 /* Resources */,
+				8658BC471A961494007242F1 /* UIImageView+Eraser.h */,
+				8658BC481A961494007242F1 /* UIImageView+Eraser.m */,
 				8658BC1D1A9613CB007242F1 /* AppDelegate.h */,
 				8658BC1E1A9613CB007242F1 /* AppDelegate.m */,
 				8658BC201A9613CB007242F1 /* ViewController.h */,
@@ -117,6 +138,18 @@
 				8658BC341A9613CB007242F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8658BC411A961494007242F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8658BC421A961494007242F1 /* bk.png */,
+				8658BC431A961494007242F1 /* Particle.png */,
+				8658BC441A961494007242F1 /* photo.png */,
+				8658BC451A961494007242F1 /* photo@2x.png */,
+				8658BC461A961494007242F1 /* photo@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +234,12 @@
 			files = (
 				8658BC251A9613CB007242F1 /* Main.storyboard in Resources */,
 				8658BC2A1A9613CB007242F1 /* LaunchScreen.xib in Resources */,
+				8658BC4C1A961494007242F1 /* photo.png in Resources */,
+				8658BC4A1A961494007242F1 /* bk.png in Resources */,
+				8658BC4E1A961494007242F1 /* photo@3x.png in Resources */,
 				8658BC271A9613CB007242F1 /* Images.xcassets in Resources */,
+				8658BC4B1A961494007242F1 /* Particle.png in Resources */,
+				8658BC4D1A961494007242F1 /* photo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +259,8 @@
 			files = (
 				8658BC221A9613CB007242F1 /* ViewController.m in Sources */,
 				8658BC1F1A9613CB007242F1 /* AppDelegate.m in Sources */,
+				8658BC4F1A961494007242F1 /* UIImageView+Eraser.m in Sources */,
+				8658BC491A961494007242F1 /* PaintingView.m in Sources */,
 				8658BC1C1A9613CB007242F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
